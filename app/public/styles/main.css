@@ -1,0 +1,44 @@
+body {
+    background: #433f43;
+}
+
+header {
+    color: #fafafa;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+}
+
+header h1 span {
+    flex-grow: 1;
+}
+
+header img {
+    height: 39px;
+}
+.container {
+    max-width: 960px;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+
+#todoList {
+    list-style: none;
+    padding: 0;
+}
+
+#todoList li {
+    background: #fff;
+}
+
+#todoList li div {
+    margin: 2px;
+    border-radius: 0;
+}
+
+#addTodo {
+    cursor: pointer;
+}
