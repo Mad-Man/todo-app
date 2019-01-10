@@ -13,5 +13,5 @@ app.get('/todo', (req, res, next) => res.sendFile(path.join(__dirname, '..', 'ap
 /*errors*/
 app.get('*', (req, res, next) => res.send(notFoundTemplate));
 
-app.listen(appPort, () => console.log(`listeing to port ${appPort}`))
+app.listen(appPort, () => console.log(`Listening to port ${appPort}`))
 
