@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './index.scss';
 
-class AddTodo extends React.Component {
+class AddTask extends React.Component {
   constructor(props) {
     super(props);
 
@@ -26,7 +26,7 @@ class AddTodo extends React.Component {
 
   render() {
     return (
-      <form className="AddTodo" onSubmit={this.handleSubmit}>
+      <form className="AddTask" onSubmit={this.handleSubmit}>
         <div className="input-group">
           <div className="input-group-prepend">
             <span className="input-group-text" id="basic-addon1">+</span>
@@ -46,8 +46,8 @@ class AddTodo extends React.Component {
   }
 }
 
-AddTodo.propTypes = {
+AddTask.propTypes = {
   handleSubmit: PropTypes.func.isRequired,
 };
 
-export default AddTodo;
+export default AddTask;

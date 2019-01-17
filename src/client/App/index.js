@@ -1,6 +1,6 @@
 import React from 'react';
 import { generate } from 'shortid';
-import AddTodo from '../AddTodo';
+import AddTask from '../AddTask';
 import TaskList from '../TaskList';
 import reactImage from './react.png';
 
@@ -64,7 +64,7 @@ class App extends React.Component {
             <img src={reactImage} alt="ReactJS" />
           </h1>
         </header>
-        <AddTodo handleSubmit={this.handleSubmit} />
+        <AddTask handleSubmit={this.handleSubmit} />
 
         <TaskList
           tasks={tasks}
